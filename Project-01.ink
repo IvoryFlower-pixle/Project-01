@@ -52,7 +52,7 @@ You should probably get a move on, before those memories become to much.
 -> END
 
 == Forest_path ==
-{left_Path: Your back at the turn. |You go down the path, looking around as you walk, the forest was lit up by the afternoon sun making the place feel warm. You can't help but smile at all the warm memories it brings of {friend_name}. You two loved to play here after all. After walking for a while, you come across another path heading to the left. }
+{left_Path+Cave_entrance: Your back at the turn. |You go down the path, looking around as you walk, the forest was lit up by the afternoon sun making the place feel warm. You can't help but smile at all the warm memories it brings of {friend_name}. You two loved to play here after all. After walking for a while, you come across another path heading to the left. }
 
 What do you do?
 + [Go down the left path] -> left_Path
