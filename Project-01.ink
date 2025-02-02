@@ -65,14 +65,14 @@ What do you do?
 
 * [Investigate the Ponds edge] -> Pond
 * [Investigate Stone Bench] -> Bench
-* {Lantern > 0 == Canteen > 0} [Fill oil Lamp] -> Oil_Lamp
+* {Lantern*Canteen == 1} [Fill oil Lamp] -> Oil_Lamp
 + [Go back] -> Forest_path
 
 -> END
 
 == Oil_Lamp ==
 ~FilledLantern = FilledLantern + 1
-You filled the Oil lamp with oil. Unfortuantly, you don't think it will even last an hour with such little oil.
+You filled the Oil lamp with oil. Unfortunately, you don't think it will even last an hour with such little oil.
 * [Go Back] -> left_Path
 
 == Bench ==
@@ -114,7 +114,7 @@ You have {advance_time() } minutes left
 -> END
 
 == Crossroad ==
-{Left_Tunnel: Since there wasn't much down the left tunnel, you should probably check out the other tunnel. |Walking into the cave, you appreciate the sudden coolness as the heat was starting to bother you. You walk for a few minutes untill you come across two paths to take. One to the left and one to the right. You should be careful in which path you choose.}
+{Left_Tunnel+Right_Tunnel: Your back at the crossroad. |Walking into the cave, you appreciate the sudden coolness as the heat was starting to bother you. You walk for a few minutes untill you come across two paths to take. One to the left and one to the right. You should be careful in which path you choose.}
 
 You have {advance_time() } Minutes left
 
@@ -147,7 +147,7 @@ You find nothing, looks like this was just a waste of time.
 -> END
 
 == Right_Tunnel ==
-You go down the right tunnel and come across a big room with lots of things to investigate. What do you do?
+{crack+Corner+Floor+Ceiling:You stand at the entrance to the room, what do you do? |You go down the right tunnel and come across a big room with lots of things to investigate. What do you do?}
 
 You have {advance_time() } Minutes left
 
