@@ -199,7 +199,7 @@ I don't know why your looking at the ceiling, theres nothing there.
 -> END
 
 == Good_Ending ==
-Grabing the toy, and looking at it. You find yourself recognizing it as a long lost toy of {friend_name}. A toy they had said they had lost when exploring as a child. Sadly that friend had passed away a few months ago so you coulden't return it to them. But perhaps you could keep it in memory of them.
+Grabing the toy, and looking at it. You find yourself recognizing it as a long lost toy of {friend_name}. A toy they had said they had lost when exploring as a child. Sadly they had passed away a few months ago so you coulden't return it to them. But perhaps you could keep it in memory of them.
 
 -> END
 
